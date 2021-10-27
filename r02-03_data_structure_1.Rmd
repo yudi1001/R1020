@@ -91,7 +91,7 @@ fruits <- append(fruits, "cherry")
 fruits
 
 # 新增元素 - 至指定索引位置
-fruits <- append(x = fruits, after = 2, values = "melon")
+fruits <- append(values = fruits, after = 2, x = "melon")
 fruits
 
 ## 合併兩個 vector
